@@ -17,22 +17,22 @@ DeepCPP.ipynb -- user interface.
 This folder contains Two new human test datasets in [1].
 
 ### input_files folder:
-18 models:
-human normal model: **human1.h5**,**human2.h5**,**human3.h5**
-human sORF model: **hsorf1.h5**,**hsorf2.h5**,**hsorf3.h5**
-vertebrate normal model: **vert1.h5**,**vert2.h5**,**vert3.h5**
-vertebrate sORF model: **vsorf1.h5**,**vsorf2.h5**,**vsorf3.h5**
-insect normal model: **insect1.h5**,**insect2.h5**,**insect3.h5**
-insect sORF model: **isorf1.h5**,**isorf2.h5**,**isorf3.h5**
-6 hexamer score files:
-human: **humanlnc_6mermean.csv**,**humanmrna_6mermean.csv**
-vertebrate: **vertlnc_6mermean.csv**,**vertmrna_6mermean.csv**
-insect: **insectlnc_6mermean.csv**,**insectmrna_6mermean.csv**
-2 feature set files:
-used for normal data: **normal566.csv**
-used for sORF data: **sorf450.csv**
-1 example input file:
-human sORF data: **humansorf.fa**, the first 232 samples are mRNA, the last 232 samples are lncRNA.
+18 models:\
+human normal model: **human1.h5**,**human2.h5**,**human3.h5**\
+human sORF model: **hsorf1.h5**,**hsorf2.h5**,**hsorf3.h5**\
+vertebrate normal model: **vert1.h5**,**vert2.h5**,**vert3.h5**\
+vertebrate sORF model: **vsorf1.h5**,**vsorf2.h5**,**vsorf3.h5**\
+insect normal model: **insect1.h5**,**insect2.h5**,**insect3.h5**\
+insect sORF model: **isorf1.h5**,**isorf2.h5**,**isorf3.h5**\
+6 hexamer score files:\
+human: **humanlnc_6mermean.csv**,**humanmrna_6mermean.csv**\
+vertebrate: **vertlnc_6mermean.csv**,**vertmrna_6mermean.csv**\
+insect: **insectlnc_6mermean.csv**,**insectmrna_6mermean.csv**\
+2 feature set files:\
+used for normal data: **normal566.csv**\
+used for sORF data: **sorf450.csv**\
+1 example input file:\
+human sORF data: **humansorf.fa**, the first 232 samples are mRNA, the last 232 samples are lncRNA.\
 
 
 
@@ -60,10 +60,10 @@ Download all the files firstly, open DeepCPP.ipynb, change code:
 test_model('.../input_files/','.../output_files/',
            'humansorf.fa',species,type)
 ```
-'humansorf.fa' is the input file name, it must be in .fa or .fasta format.
-species: three options are avalibale: 'human','vert' and 'insect'.
-type: 'normal' or 'sorf'. 'normal' means normaldata, 'sorf'means RNAs with short ORF.
-The predicted results is located in output_files.  
+'humansorf.fa' is the input file name, it must be in .fa or .fasta format.\
+species: three options are avalibale: 'human','vert' and 'insect'.\
+type: 'normal' or 'sorf'. 'normal' means normaldata, 'sorf'means RNAs with short ORF.\
+The predicted results is located in output_files.\
 
 More details can be found from [1]
 
