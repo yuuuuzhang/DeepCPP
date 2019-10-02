@@ -14,7 +14,7 @@ utils_lncRNA.py -- functions will be used.
 DeepCPP.ipynb -- user interface.  
 ```
 ### rawdata folder:
-This folder contains Two new human test datasets in [1].
+This folder contains the new sORF human test datasets in [1].
 
 ### input_files folder:
 18 models:\
