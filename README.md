@@ -2,7 +2,7 @@
 The codes and data here are used to predict RNA protein coding potential. It will give researchers usegul guidelines to explore the functions of newly found RNAs.
 
 ## PUBLICATION
-Please cite this paper if using the codes here: Not available yet
+Please cite this paper if using the codes here: Zhang Y, Jia C, Fullwood MJ, Kwoh CK. DeepCPP: a deep neural network based on nucleotide bias information and minimum distribution similarity feature selection for RNA coding potential prediction. Briefings in Bioinformatics. 2020 Mar 30.
 
 ## EXPLANATION
 This repository contains four folders, code, rawdata, input_files and outputfiles.
@@ -68,7 +68,7 @@ The predicted results is located in output_files.
 More details can be found from [1]
 
 ## REFERANCE
-[1] Not available
+[1] Zhang Y, Jia C, Fullwood MJ, Kwoh CK. DeepCPP: a deep neural network based on nucleotide bias information and minimum distribution similarity feature selection for RNA coding potential prediction. Briefings in Bioinformatics. 2020 Mar 30.
 
 ## CONTACT
 If you have any inqueries, please contact YU007@e.ntu.edu.sg
