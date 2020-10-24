@@ -39,7 +39,7 @@ human sORF data: **humansorf.fa**, the first 232 samples are mRNA, the last 232 
 ### output_files folder:
 This folder contains the predicted results of input file.
 
-## WORKING MECHANISM OF DL-CRISPR
+## WORKING MECHANISM OF DeepCPP
 The overview of the mechanism of DeepCPP is illustrated in Figure 1. Firstly, 8 kinds of features are extracted from the raw sequence, then we use the first 566 features for normal data and 450 features for sORF data sorted by our newly proposed feature selection method, MDS, as the input feature subsets to the deep network. Finally, the average scores will be calculated from three prebuilt models and the coding potential prediction label will be given.
 ![alt text](https://github.com/yuuuuzhang/lncRNA/blob/master/overview.jpg)
 figure 1.An overview of the mechanism of DeepCPP.
