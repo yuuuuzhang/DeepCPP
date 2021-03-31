@@ -68,7 +68,7 @@ The predicted results is located in output_files.
 More details can be found from [1]
 
 ## REFERANCE
-[1] Zhang Y, Jia C, Fullwood MJ, Kwoh CK. DeepCPP: a deep neural network based on nucleotide bias information and minimum distribution similarity feature selection for RNA coding potential prediction. Briefings in Bioinformatics. 2020 Mar 30.
+[1] Zhang Y, Jia C, Fullwood MJ, Kwoh CK. DeepCPP: a deep neural network based on nucleotide bias information and minimum distribution similarity feature selection for RNA coding potential prediction. Briefings in bioinformatics. 2021 Mar;22(2):2073-84.
 
 ## CONTACT
 If you have any inqueries, please contact YU007@e.ntu.edu.sg
